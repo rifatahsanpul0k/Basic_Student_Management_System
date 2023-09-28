@@ -34,8 +34,9 @@ public class Main {
 
                 case 2:
                     // Add a new student to the list
+                    Input.nextLine();
                     System.out.println("Enter name: ");
-                    String fullName = Input.next();
+                    String fullName = Input.nextLine();
                     System.out.println("University: ");
                     String universityName = Input.next();
                     System.out.println("Department: ");
